@@ -11,7 +11,7 @@ const Education = ({id}) => {
       "school": "SSM College of Engineering",
       "level": "BE",
       "title": "Electronics and Communication Engineering",
-      "percentage": 70,
+      "percentage": 80,
       "description": "Successfully completed Bachelor of Engineering in Electronics and Communication Engineering (ECE) from SSM College of Engineering in 2024."
     },
     {
