@@ -94,7 +94,7 @@ const About = ({id}) => {
               }
             >
               Whether it's harnessing the power of React.js for dynamic front-end experiences or deploying
-              scalable back-end solutions with Node.js, I prioritize efficiency, scalability, and 
+              scalable back-end solutions with Node.js, I prioritize efficiency, scalability and 
               accessibility to deliver seamless experiences that resonate with audiences on any device.
             </p>
           </motion.div>
