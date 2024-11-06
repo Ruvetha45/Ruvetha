@@ -114,9 +114,9 @@ function Projects({id}) {
       "liveDemo": "https://654258beaa211e0c58880744--remarkable-gelato-808768.netlify.app/"
     }
   ];
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);  
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [filterType, setFilterType] = useState(null);
+  const [filterType, setFilterType] = useState("full");
 
   const itemsPerSlide = {
     lg: 4,
@@ -186,9 +186,10 @@ function Projects({id}) {
         </h2>
         <div className='flex justify-center'>
         <div className='filter-buttons space-x-5 mt-2 mt-sm-1'>
-          <button className='bg-blue-500 text-white px-4 py-2 w-15 rounded-md hover:bg-indigo-400' onClick={() => handleFilter(null)}>All</button>
           <button className='bg-blue-500 text-white px-4 py-2 w-35 rounded-md hover:bg-indigo-400' onClick={() => handleFilter('full')}>Full Stack Projects</button>
           <button className='bg-blue-500 text-white px-4 py-2 w-30 rounded-md hover:bg-indigo-400' onClick={() => handleFilter('mini')}>Mini Projects</button>
+          <button className='bg-blue-500 text-white px-4 py-2 w-15 rounded-md hover:bg-indigo-400' onClick={() => handleFilter(null)}>All</button>
+
         </div>
       </div>
 

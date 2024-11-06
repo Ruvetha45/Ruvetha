@@ -82,7 +82,7 @@ const Education = ({id}) => {
           <div className='education-item mb-5 '>
           <h3 className='edu-title'>FULL STACK DEVELOPMENT (MERN)</h3>
           <p className='edu-school'>GUVI Chennai</p>
-          <p className='edu-desc'>The Full Stack Development (MERN) course at GUVI Chennai provided comprehensive training in MongoDB, Express.js, React.js, and Node.js, covering both frontend and backend development. </p>
+          <p className='edu-desc'>The Full Stack Development (MERN) course at GUVI in Chennai provided comprehensive training in MongoDB, Express.js, React.js, and Node.js, covering both frontend and backend development. </p>
           <div className="flex justify-center align-items-center">
           <button className='bg-blue-500 text-white px-4 py-2 w-30 rounded-md hover:bg-indigo-400' onClick={handlecerteficate}>View Certificate</button>
         </div>
