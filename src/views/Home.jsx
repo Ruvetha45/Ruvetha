@@ -11,7 +11,7 @@ const Home = ({id}) => {
   const darkMode = theme.state.darkMode;
 
   const handleResumeClick = () => {
-    const resumeUrl = 'https://drive.google.com/file/d/1CnvfhOkQY84z4StAaSuF4Qp8W_XiM00r/view?usp=drivesdk';
+    const resumeUrl = 'https://drive.google.com/file/d/1BuCfEJMlRkkY45OECj2noDpjdyjvya7w/view?usp=drivesdk';
     window.open(resumeUrl, '_blank'); 
   };
 
