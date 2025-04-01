@@ -40,7 +40,7 @@ const Home = ({id}) => {
                   steps={[
                     "Front End Developer",
                     1000,
-                    "Backend Developer",
+                    "Back End Developer",
                     1000,
                     "Full Stack Developer",
                     1000,
